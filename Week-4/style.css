@@ -1,0 +1,86 @@
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: digital-7;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: wavy;
+    text-align: center;
+    text-decoration-color: rgb(76, 248, 87);
+    color: rgb(36, 209, 239);
+    background-color:rgb(31, 25, 31);
+
+
+}
+
+#outer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0px;
+    box-sizing: border-box;
+    width: 120px;
+    border-radius: 20px;
+    height: 100%;
+    background-color: black;
+}
+
+.romio{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px 0px;
+
+}
+
+#red {
+    background-color: grey;
+    box-shadow: 0px 0px 50px rgb(153, 48, 48);
+}
+
+#yellow {
+    background-color: grey;
+    box-shadow: 0px 0px 50px rgb(121, 108, 54);
+}
+
+#green {
+       background-color: grey;
+    box-shadow: 0px 0px 50px rgb(63, 160, 99);
+}
+
+#button {
+    height: 80px;
+    width: 120px;
+    background-color: rgb(7, 11, 12);
+    color: rgb(10, 240, 125);
+    font-size: 24px;
+    font-weight: 500px;
+
+}
+.Giga{
+    height: 300px;
+    color: yellow;
+   font-size: large;
+    
+    background-image: url(https://imgs.search.brave.com/eZ7v6zvzMfIYJVuM-tb-CmyXnlaH6sa97ZfqCR9B770/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kYW0u/bWVkaWFjb3JwLnNn/L2ltYWdlL3VwbG9h/ZC9zLS1OZHAxZlY5/RC0tL2NfZmlsbCxn/X2F1dG8saF82MjIs/d184MzAvZmxfcmVs/YXRpdmUsZ19zb3V0/aF9lYXN0LGxfbWVk/aWFjb3JwOmNuYTp3/YXRlcm1hcms6MjAy/MS0wODptZWRpYWNv/cnAsd18wLjEvZl9h/dXRvLHFfYXV0by92/MS9tZWRpYWNvcnAv/Y25hL2ltYWdlLzIw/MjQvMDUvMTEvMjAy/NDA1MTEtbnMtcmxi/aWdyZWFkMDUxMS5q/cGc_aXRvaz01TWpm/TmlsQg);
+    background-size: contain;
+    filter: brightness(90%) contrast(80%);
+    
+}
